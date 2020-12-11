@@ -1,0 +1,75 @@
+body {
+	color: #003249;
+	font-family: Raleway;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	background-color: rgb(236, 240, 241 );
+}
+
+/* custom design with class (99% of your design) */
+.container {
+	width: 850px;
+	margin: 10px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 5px 20px rgb(0,0,0,1);
+	border-radius: 6px;
+	margin: 25px auto;
+	text-align: center;
+	border: 2px solid grey;
+}
+
+
+h1 {
+	font-family: Montserrat;
+	font-weight: bolder;
+	font-size: 35px; 
+	color: #007EA7
+}
+
+h2	{
+	font-size: 27px;
+	font-family: Merriweather;
+	color: #3FABD1
+}
+
+a {
+	transition: color 0.3s ease;
+	color: brown;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: black;
+}
+
+/*Design adjustments using id (1% design remaining)*/
+#introduction p {
+	margin-bottom: 40px;
+}
